@@ -1,13 +1,9 @@
 package Pessoas;
 
-import jakarta.persistence.*;
-
-@Entity
-@Table(name = "usuarios")
 public class PersonAtributtes {
 
     private String nome;
-
+    //CPF is a document in Brazil that is unique to a person
     private String cpf;
 
     private String Endereco;
